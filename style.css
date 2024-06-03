@@ -1,0 +1,78 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.navbar {
+    background-color: #005aa7;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #fff;
+}
+
+.container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #005aa7;
+    margin-bottom: 20px;
+}
+
+.btn-primary, .btn-success {
+    background-color: #005aa7;
+    border-color: #005aa7;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background-color: #004080;
+    border-color: #004080;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.form-control {
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.list-group-item {
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.list-group-item:hover {
+    background-color: #dcdfe3;
+}
